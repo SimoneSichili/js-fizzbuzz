@@ -19,6 +19,6 @@ for (var i = 1; i <= 100; i++) {
     }
 
     console.log(number);
-    document.getElementById("result").innerHTML += number + "<br>";
+    document.getElementById("result").innerHTML +="<span>" + number + "</span>";
     
 }
